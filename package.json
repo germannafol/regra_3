@@ -1,0 +1,25 @@
+{
+  "name": "regra_de_3",
+  "version": "1.0.0",
+  "description": "Programa que permite uma escolha facilitada do produto pelo preço.",
+  "main": "js/main.js",
+  "scripts": {
+    "start":"node js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germannafol/regra_3.git"
+  },
+  "keywords": [
+    "css",
+    "jss",
+    "node"
+  ],
+  "author": "Germanna Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germannafol/regra_3/issues"
+  },
+  "homepage": "https://github.com/germannafol/regra_3#readme"
+}
