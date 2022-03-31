@@ -1,11 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    max-width: 320px;
+    background-color: #f9f9f9;
+    margin: 1rem 0;
+}
+.container{
+    position: relative;
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    background-color: #ebebeb;
+    border-radius: 0.2rem;
+}
+div, ul{
+    padding: 0.9rem;
+}
+label{
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
 input[type=number]::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
-
-section{
-    display: flex;
+input{
+    border-bottom-color: sandybrown;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: #f0f8ff00;
+    width: 5rem;
 }
-
-div, ul{
-    padding: 0.9rem;
+#caixa-selecao{
+    border-color: sandybrown;
+    background-color: #f0f90000;
+}
+.botao{
+    border-color: sandybrown;
 }

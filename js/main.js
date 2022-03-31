@@ -44,7 +44,7 @@ botao.addEventListener('click', regra=>{
         const valorTotal=valor1*quantidadeTotal/quantidade1;
         const arredondaValortotal=parseFloat(valorTotal.toFixed(2));   
         //console.log(`O Preço, produto com ${quantidade1} é ${arredondaValortotal} o Kg`);
-        criaRespostaTela(`Produto com ${quantidade1} ${caixaSelecao.value} : R$ ${arredondaValortotal}/Kg`);
+        criaRespostaTela(`R$ ${arredondaValortotal}/Kg : Produto com ${quantidade1} ${caixaSelecao.value}`);
     }
 
     regra ( caixaQuantidade.value , caixaPreco.value );
