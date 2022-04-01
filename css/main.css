@@ -4,8 +4,11 @@
 body{
     display: block;
     max-width: 320px;
-    background-color: #f9f9f9;
+    background-image: url(../src/undraw.svg);
     margin: 1rem 0;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 22rem;
 }
 .container{
     position: relative;
@@ -15,7 +18,7 @@ body{
     flex-direction: column;
 }
 section{
-    background-color: #ebebeb;
+    background-color: #ffffffd8;
     border-radius: 0.2rem;
 }
 div, ul{
