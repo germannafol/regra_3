@@ -7,41 +7,43 @@
     <link rel='stylesheet' type='text/css' media="screen" href="css/reset.css">
     <link rel='stylesheet'  type='text/css' media='screen' href='css/main.css'>
 </head>
+
 <body>
-    <section class="caixa-principal container">
-        <div>
-            <label for="preco" class="titulo-caixa">Preço</label>
-            <input type="number" name="" id="preco" class="caixa">
-        </div>
-        <div>
-            <label for="quantidade" class="titulo-caixa">Quantidade</label>
-            <input  type="number" name="" id="quantidade" class="caixa">
-        </div>
-        <div>
-            <section>
-            <select id= "caixa-selecao" name="">
-                <option value=""></option>
-                <optgroup>
-                <option value="grama">grama</option>
+    <div class="caixa-secundaria">
+        <section class="caixa-principal container">
+            <div>
+                <label for="preco" class="titulo-caixa">Preço</label>
+                <input type="number" name="" id="preco" class="caixa">
+            </div>
+            <div>
+                <label for="quantidade" class="titulo-caixa">Quantidade</label>
+                <input  type="number" name="" id="quantidade" class="caixa">
+            
+                <section>
+                <select id= "caixa-selecao" name="">
+                    <option value=""></option>
+                    <optgroup>
+                    <option value="grama">grama</option>
+                    </optgroup>
+                    <optgroup>
+                    <option value="unidade">unidade</option>
+                    </optgroup>
+                    <optgroup>
+                    <option value="ml">ml</option>
                 </optgroup>
-                <optgroup>
-                <option value="unidade">unidade</option>
-                </optgroup>
-                <optgroup>
-                <option value="ml">ml</option>
-            </optgroup>
-            </select> 
-            </section>
-        </div>
-    </section>
-    <section class="container">
-        <div>
-            <button class="botao" id="botao" type="submit">Verificar</button>
-        </div>
-    </section>
-    <section class="container">
-        <ul id="precoTotal"></ul>
-    </section>
+                </select> 
+                </section>
+            </div>
+        </section>
+        <section class="container">
+            <div>
+                <button class="botao" id="botao" type="submit">Verificar</button>
+            </div>
+        </section>
+        <section class="container">
+            <ul id="precoTotal"></ul>
+        </section>
+    </div>
 </body>
 <script src='js/main.js'></script>
 </html>

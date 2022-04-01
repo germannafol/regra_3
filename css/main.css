@@ -17,10 +17,13 @@ body{
     display: flex;
     flex-direction: column;
 }
-section{
+.caixa-secundaria{
+
     background-color: #ffffffd8;
-    border-radius: 0.2rem;
+    border-radius: 3.5rem;
 }
+/* section{
+} */
 div, ul{
     padding: 0.9rem;
 }
@@ -37,13 +40,22 @@ input{
     border-right-style: none;
     border-top-style: none;
     background-color: #f0f8ff00;
-    width: 5rem;
+    width: 3rem;
+    color: #d3893f;
+    font-weight: bold;
 }
 #caixa-selecao{
-    border-color: sandybrown;
+    border-color: #f4a46000;
     background-color: #f0f90000;
+    color: #bc860b;
+    border-block-end-color: inherit;
 }
 .botao{
     border-color: sandybrown;
-    
+    background-color: sandybrown;
+    color: #fff;
+}
+li{
+    color: #ca893f;
+    font-weight: bolder;
 }
