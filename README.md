@@ -1,2 +1,2 @@
-**Regra de 3- Fácil
+## Regra de 3- Fácil
 
