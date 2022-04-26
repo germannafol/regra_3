@@ -2,7 +2,6 @@ const caixaPreco=document.getElementById("preco");
 const caixaQuantidade=document.getElementById("quantidade");
 const caixaSelecao=document.getElementById("caixa-selecao");
 
-
 //3.Seleciona o pai
 const paiPrecoTotal=document.querySelector("#precoTotal");
 
@@ -36,7 +35,6 @@ const botao=document.getElementById("botao");
 
 
 
-
 botao.addEventListener('click', regra=>{
     
     function regra(quantidade1,valor1){
@@ -51,6 +49,5 @@ botao.addEventListener('click', regra=>{
     caixaPreco.focus;
 }
 )
-
 
 

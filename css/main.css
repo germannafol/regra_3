@@ -5,22 +5,34 @@ body{
     display: block;
     max-width: 320px;
     background-image: url(../src/undraw.svg);
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     background-repeat: no-repeat;
     /* background-size: contain; */
-    background-size: 22rem;
+    background-size: inherit;
+    width: 22rem;
 }
 .container{
     position: relative;
-    width: 92%;
-    margin: 0 auto;
+    width: 43.75rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
 .caixa-secundaria{
-
-    background-color: #ffffffd8;
+    background: #e0e0e0f5;
+    box-shadow: 31px 31px 64px #9f9f9f, -31px -31px 64px #ffffff;
     border-radius: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px; */
+    position: absolute;
+    width: 323px;
+    /* height: 249px; */
+    left: 1rem;
+    top: 1rem;
+    right: 1rem;
 }
 /* section{
 } */
