@@ -6,27 +6,27 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media="screen" href="css/reset.css">
     <link rel='stylesheet'  type='text/css' media='screen' href='css/main.css'>
+    <script defer src='js/main.js'></script>
 </head>
 
 <body>
     <div class="caixa-secundaria">
         <section class="caixa-principal container">
-            <div>
+            <div class="caixa-preco">
                 <label for="preco" class="titulo-caixa">Preço</label>
                 <input type="number" name="" id="preco" class="caixa">
             </div>
-            <div>
+            <div class="caixa-quantidade">
                 <label for="quantidade" class="titulo-caixa">Quantidade</label>
                 <input  type="number" name="" id="quantidade" class="caixa">
-            
+            </div>
+            <div class="caixa-medida">
                 <section>
-                <select id= "caixa-selecao" name="">
+                <select id= "caixa-selecao" name="" placeholder="teste">
                     <option value=""></option>
                     <optgroup><option value="grama">grama</option></optgroup>
                     <optgroup><option value="unidade">unidade</option></optgroup>
-                    <optgroup>
-                    <option value="ml">ml</option>
-                    </optgroup>
+                    <optgroup><option value="ml">ml</option></optgroup>
                 </select> 
                 </section>
             </div>
@@ -40,6 +40,5 @@
             <ul id="precoTotal"></ul>
         </section>
     </div>
-    <script src='js/main.js'></script>
 </body>
 </html>
